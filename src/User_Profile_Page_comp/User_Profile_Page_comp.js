@@ -99,15 +99,15 @@ import { setHistoryObj, setMatchObj,setUserProjectsData } from '../store/actions
     var sendProjectsDataToTables = () => {
       var setToStateA = () => 
 {
-      this.setState({
-        tableA :  < Task_comp id={this.props.state.currentWeeks.current.id} date={this.props.state.currentWeeks.current.start} projects={this.state.userProjectsToModal} userID={this.props.state.userData._id} />,
-        tableB :  < Task_comp id={this.props.state.currentWeeks.last.id}  date={this.props.state.currentWeeks.last.start}  projects={this.state.userProjectsToModal} userID={this.props.state.userData._id}/>
-      });
+    this.setState({
+      tableA :  < Task_comp id={this.props.state.currentWeeks.current.id} date={this.props.state.currentWeeks.current.start} projects={this.state.userProjectsToModal} userID={this.props.state.user_Data._id} />,
+      tableB :  < Task_comp id={this.props.state.currentWeeks.last.id}  date={this.props.state.currentWeeks.last.start}  projects={this.state.userProjectsToModal} userID={this.props.state.user_Data._id} />
+    })
     }
     var setToStateB = () => 
     {
       this.setState({
-        tableA :  < Task_comp id={this.props.state.currentWeeks.current.id} date={this.props.state.currentWeeks.current.start} projects={this.state.userProjectsToModal} userID={this.props.state.userData._id} />,
+        tableA :  < Task_comp id={this.props.state.currentWeeks.current.id} date={this.props.state.currentWeeks.current.start} projects={this.state.userProjectsToModal} userID={this.props.state.user_Data._id} />
         
       });
     }
