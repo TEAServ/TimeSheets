@@ -1,6 +1,6 @@
 {
   "name": "teaserv-timesheet",
-  "homepage": "http://TEAServ.github.io/",
+  "homepage": "http://TEAServ.github.io/TimeSheet",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -47,6 +47,7 @@ function App() {
      <Switch>
 
     <Route path='/' exact  component={Home_comp}  />
+    <Route path='/TimeSheet' exact  component={Home_comp}  />
     <Route path='/profile' exact component={Profile_Page_comp} />
     <Route path='/user' exact component={User_Profile_Page_comp} />
     <Route path='/project' exact component={Project_PageTS_comp} />
