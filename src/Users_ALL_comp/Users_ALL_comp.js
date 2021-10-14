@@ -30,7 +30,7 @@ allUsersComp : [],
   {
     if (!this.props.state.userData._id) 
     {
-      window.location.pathname = "/"
+      window.location.pathname = "/TimeSheet"
     }
    var StoreToallUsersComp = (data) => 
    {

@@ -32,7 +32,7 @@ import Member_card_comp from '../Member_card_FORMODAL_comp/Member_card_FORMODAL_
   {
     if (!this.props.state.userData._id) 
     {
-      window.location.pathname = "/"
+      window.location.pathname = "/TimeSheet"
     }
     var set_projectsCards = (data) => 
     {

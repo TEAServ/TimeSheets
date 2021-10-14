@@ -38,7 +38,7 @@ import { setHistoryObj, setMatchObj,setUserProjectsData } from '../store/actions
   {
     if (!this.props.state.userData._id) 
     {
-      window.location.pathname = "/"
+      window.location.pathname = "/TimeSheet"
     }
     
     if (!this.props.state.user_Data._id || this.props.state.user_Data._id==this.props.state.userData._id) 

@@ -178,7 +178,7 @@ import { setCurrentWeeks } from '../store/actions';
 
 
                         <div class="loginBtnCont" >
-                            <button   type="button" id="aawfadg" onClick={(e) => this.checkk2(e)} class="btn btn-primary loginBtn">LogIn</button>
+                            <button   type="button" id="aawfadg" onClick={(e) => this.checkk2(e)} class="btn btn-primary loginBtn">LogIn!</button>
                         </div>
 
 

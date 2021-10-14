@@ -43,7 +43,7 @@ PL:""
   {
     if (!this.props.state.userData._id) 
     {
-      window.location.pathname = "/"
+      window.location.pathname = "/TimeSheet"
     }
     //console.log(this.props);
 var SetPL = (data) => 
